@@ -1,12 +1,13 @@
 {
   "name": "parcel-experiment",
   "version": "1.0.0",
-  "description": "一个简单的npm包，用于学习使用npm",
+  "description": "A simple npm package to learn about using npm",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build index.html"
   },
-  "author": "xxy",
+  "author": "zyt",
   "license": "ISC",
   "dependencies": {
     "date-fns": "^2.0.0",
